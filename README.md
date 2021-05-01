@@ -1,6 +1,7 @@
+## The Snake
+
 ![](https://i.imgur.com/duRv85u.png)
 
-## The Snake
 One of my first games, writen solely using the deffault Java libraries. The GUI is created using the Swing library. The whole game is separeted into 5 different classes, each serving a different purpose:
 
 * SnakePanel - A class, that is responsible for drawing out the game field. It is also responsible for drawing the text at the wellcome screen, the number counter at the start of every game and the game over text. It draws the text by overriding the paint() method of JComponent, and using the comp2d object.
