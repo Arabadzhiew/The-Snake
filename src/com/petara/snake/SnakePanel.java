@@ -59,7 +59,7 @@ public class SnakePanel extends JPanel {
 			Graphics2D comp2d = (Graphics2D)comp;
 			comp2d.setColor(new Color(212,175,55));
 			comp2d.setFont(wellcomeFont);
-			drawCenteredString("Wellcome to \"The Snake\"!",comp2d,300);
+			drawCenteredString("Welcome to \"The Snake\"!",comp2d,300);
 			comp2d.setColor(new Color(104,0,52));
 			comp2d.setFont(fontInstructions);
 			drawCenteredString("Press [Enter] to play",comp2d,0);
