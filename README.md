@@ -1,3 +1,5 @@
+![](https://i.imgur.com/duRv85u.png)
+
 ## The Snake
 One of my first games, writen solely using the deffault Java libraries. The GUI is created using the Swing library. The whole game is separeted into 5 different classes, each serving a different purpose:
 
@@ -10,3 +12,6 @@ One of my first games, writen solely using the deffault Java libraries. The GUI 
 * SnakeBrain - A class that is responsible for most of the logic inside of the game. It's responsible for alot of stuff like generating the snake on the wollcome screen and in-game, mooving it in both as well, extending the snake when the apple has been eaten and ends the game if the snake bites its own tail. The snake's head and tail coordinates are being stored inside of HashMaps (one for the X and one for the Y coordinate), which makes it easy to move the snake in all directions (every part of the snake follows the next, starting from the head). This class is also responsible for handling all of the user input, and it does so by implementing the KeyListener and ActionListener interfaces. It also has one thread, which turns the snake arround when the KeyPressed method recives an event.
 
 * SnakeFrame - The class that assembles everything together. This is the class responsible for the window of the game appering on the screen.
+
+
+
